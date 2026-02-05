@@ -9,7 +9,7 @@ os.environ['SSL_CERT_FILE'] = certifi.where()
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
-TOKEN = '8348440046:AAEBp-BoV3zUrmvOJyqiK2qYfy7ZvAhUuHg'
+TOKEN = os.environ.get('BOT_TOKEN')
 
 async def start(update: Update, context: CallbackContext) -> None:
     keyboard = [
