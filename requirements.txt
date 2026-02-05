@@ -1,2 +1,3 @@
-python-telegram-bot>=20.0
-certifi
+python-telegram-bot==20.3
+certifi==2026.10.3
+requests
