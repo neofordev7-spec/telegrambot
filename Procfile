@@ -1,1 +1,1 @@
-worker: exec python bot.py
+web: exec python bot.py
